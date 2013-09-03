@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/font_increase" android:icon="@drawable/icon_font_increase"
+		android:showAsAction="always"></item>
+	<item android:id="@+id/font_decrease" android:icon="@drawable/icon_font_decrease"
+		android:showAsAction="always"></item>
+
+</menu>

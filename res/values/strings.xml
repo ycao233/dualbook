@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DualBooks</string>
+	<string name="get_new_book">Add Book Folder</string>
+	<string name="select_cover_image">Select a Book Cover</string>
+	<string name="remove_cover_image">Remove Book Cover</string>
+    <string name="loading">Populating book library, please wait...</string>
+	<string name="last_position">Go to Last Read Location</string>
+	<string name="no_second_panel">Hide Right Panel</string>
+	<string name="second_read_pane">Second Reading Panel</string>
+	
+	<string name="translator">Text Translator</string>
+	<string name="my_notes">Text Notes</string>
+	<string name="pick_new_book">Select a Different Book</string>
+	<string name="goto_page">Go to Page</string>
+	<string name="goto_toc">Go to Table of Content</string>
+	<string name="view_bookmarks">View Bookmarks</string>
+	<string name="create_bookmark">Bookmark Current Location</string>
+	<string name="sync_scrolling">Synchronized Scrolling</string>
+	
+    <string name="google">Google</string>
+    <string name="my_images">Image Notes</string>
+    
+    <string name="load_txt">Open Text Files</string>
+    <string name="load_my_notes">Load My Notes</string>
+</resources>

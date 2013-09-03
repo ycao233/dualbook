@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<com.ycao.dualbooks.panel.NotesPane
+		android:orientation="vertical" android:id="@+id/opt_notes_pane"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+
+	<com.ycao.dualbooks.panel.ImageNotesPane
+		android:orientation="vertical" android:id="@+id/opt_image_notes_pane"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+
+	<com.ycao.dualbooks.panel.EpubReader
+		android:orientation="vertical" android:id="@+id/opt_epub_reader"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+	<com.ycao.dualbooks.panel.PDFReader
+		android:orientation="vertical" android:id="@+id/opt_pdf_reader"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+	<com.ycao.dualbooks.panel.WebPane
+		android:orientation="vertical" android:id="@+id/opt_web_pane"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+
+</RelativeLayout>

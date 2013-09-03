@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/select_book_folder"
+          android:title="@string/get_new_book" android:showAsAction="ifRoom|withText" android:icon="@drawable/icon_foldersearch"/>
+    <item android:showAsAction="ifRoom|withText" android:icon="@drawable/icon_sun" android:title="Light theme" android:id="@+id/light_theme"/>
+    <item android:showAsAction="ifRoom|withText" android:icon="@drawable/icon_night" android:title="Dark Theme" android:id="@+id/dark_theme"></item>
+</menu>

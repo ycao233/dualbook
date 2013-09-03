@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<EditText android:id="@+id/urlbar" android:layout_width="match_parent"
+			android:layout_height="50dp" android:layout_weight="1"
+			android:textSize="12sp" />
+		<Button android:id="@+id/loadurl" android:layout_height="50dp"
+			android:layout_width="80dp" android:text="Go!" />
+	</LinearLayout>
+	<WebView android:id="@+id/opt_webPane" android:layout_width="match_parent"
+		android:layout_height="match_parent" android:layout_weight="1" />
+	<ImageButton android:id="@+id/opt_webBack"
+		android:layout_width="50dp" android:layout_height="50dp"
+		android:src="@drawable/icon_before" android:gravity="left"
+		android:background="@null" />
+</LinearLayout>

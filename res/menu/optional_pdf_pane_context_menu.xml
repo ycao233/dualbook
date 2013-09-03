@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/optional_select_new_book" android:title="@string/pick_new_book" />
+	<item android:id="@+id/optional_goto_page" android:title="@string/goto_page" />
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent"
+	android:orientation="horizontal" android:id="@+id/linaerLayoutDualPane">
+	
+    <fragment android:name="com.ycao.dualbooks.ReaderPanelActivity$ReaderFragment"
+            android:id="@+id/readingPane"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="5dp"/>
+            
+    <View android:id="@+id/vertical_bar"
+    	  android:layout_width="2dip"
+    	  android:layout_height="fill_parent"
+    	  android:background="#9999CC" />
+            
+    <fragment android:name="com.ycao.dualbooks.ReaderPanelActivity$OptionalFragment"
+            android:id="@+id/secondPane"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="10dp"/>
+</LinearLayout>

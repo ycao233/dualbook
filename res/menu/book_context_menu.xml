@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/select_cover_image" android:title="@string/select_cover_image"></item>
+    <item android:id="@+id/remove_cover_image" android:title="@string/remove_cover_image"></item>
+</menu>

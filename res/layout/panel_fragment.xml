@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<com.ycao.dualbooks.panel.EpubReader android:id="@+id/epub_panel_reader"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+		
+	<com.ycao.dualbooks.panel.PDFReader android:id="@+id/pdf_panel_reader"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		
+</RelativeLayout>

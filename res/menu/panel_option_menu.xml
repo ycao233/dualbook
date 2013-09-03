@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/sync_scroll" android:checkable="true" android:title="@string/sync_scrolling" android:showAsAction="ifRoom|withText" android:enabled="true" android:visible="true" android:icon="@drawable/icon_empty_checkbox" android:checked="true"/>
+
+	<item android:id="@+id/font_increase" android:icon="@drawable/icon_font_increase"
+		android:showAsAction="always"></item>
+	<item android:id="@+id/font_decrease" android:icon="@drawable/icon_font_decrease"
+		android:showAsAction="always"></item>
+
+	<group android:checkableBehavior="single">
+		<item android:id="@+id/select_none" android:title="@string/no_second_panel"
+			android:checked="true" />
+		<item android:id="@+id/select_second_read_pane" android:title="@string/second_read_pane" />
+		<item android:id="@+id/select_my_notes" android:title="@string/my_notes" />
+		<item android:id="@+id/select_images" android:title="@string/my_images" />
+		<item android:id="@+id/select_google" android:title="@string/google" />
+	</group>
+
+</menu>

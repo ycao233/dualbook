@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:image_notes_panel="http://schemas.android.com/apk/res/com.example.android.merge">
+	<Robert.Foss.TouchImageView android:id="@+id/opt_notesImagePane"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:layout_weight="1" android:src="@drawable/image_hint"
+		android:gravity="center" />
+
+	<LinearLayout android:orientation="horizontal"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="50dp"
+		android:layout_marginBottom="10dp">
+		<ImageButton android:id="@+id/opt_lastPic"
+			android:layout_width="50dp" android:layout_height="match_parent"
+			android:src="@drawable/icon_before" android:gravity="left"
+			android:background="@null" android:layout_marginRight="100dp" />
+		<ImageButton android:id="@+id/opt_takepic"
+			android:layout_width="50dp" android:layout_height="50dp"
+			android:gravity="center" android:layout_weight="1"
+			android:background="@null" android:src="@drawable/icon_camera"
+			android:layout_marginRight="25dp" />
+		<ImageButton android:id="@+id/opt_rotate"
+			android:layout_width="50dp" android:layout_height="50dp"
+			android:gravity="center" android:layout_weight="1"
+			android:background="@null" android:src="@drawable/icon_rotate"
+			android:layout_marginLeft="25dp" />
+		<ImageButton android:id="@+id/opt_nextPic"
+			android:layout_width="50dp" android:layout_height="match_parent"
+			android:gravity="right" android:src="@drawable/icon_next"
+			android:background="@null" android:layout_marginLeft="100dp" />
+	</LinearLayout>
+</merge>

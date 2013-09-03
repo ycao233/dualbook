@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="khaki">#F0E68C</color>
+	<color name="light_green">#66FFDD</color>
+	<color name="light_yellow">#FFFFDD</color>
+	<color name="light_yellow_2">#FFFFEE</color>
+	<style name="HoloLightYellowBg" parent="android:Theme.Holo.Light">
+		<item name="android:windowBackground">@color/light_yellow_2</item>
+		<item name="android:colorBackground">@color/light_yellow_2</item>
+		<item name="android:actionBarStyle">@style/customActionBarStyle</item>
+	</style>
+	<style name="customActionBarStyle" parent="android:Widget.Holo.Light.ActionBar">
+		<item name="android:background">@color/light_yellow</item>
+	</style>
+
+	<style name="textShadow">
+		<item name="android:paddingLeft">4px</item>
+		<item name="android:paddingBottom">4px</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:shadowColor">#AAAAAA</item>
+		<item name="android:shadowDx">5</item>
+		<item name="android:shadowDy">5</item>
+		<item name="android:shadowRadius">5</item>
+	</style>
+	
+	<style name="textShadow2">
+		<item name="android:paddingLeft">4px</item>
+		<item name="android:paddingBottom">4px</item>
+		<item name="android:textSize">25sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:shadowColor">#AAAAAA</item>
+		<item name="android:shadowDx">2</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">5</item>
+	</style>
+</resources>

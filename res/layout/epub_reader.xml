@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	 <com.ycao.dualbooks.panel.SynchronizableScrollView android:id="@+id/epub_scrollview"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fillViewport="true" android:focusable="false" android:layout_weight="1">
+        <TextView android:id="@+id/epub_textPane"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:textSize="24sp" android:text="Please long-press here and select a book."
+            android:freezesText="true" android:fadingEdge="horizontal"
+            android:fadingEdgeLength="5dp" android:lineSpacingMultiplier="1.2"/>
+    </com.ycao.dualbooks.panel.SynchronizableScrollView>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/linearPage" android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="50dp"
+		android:layout_marginBottom="10dp">
+		<ImageButton android:id="@+id/backButton"
+			android:layout_width="50dp" android:layout_height="match_parent"
+			android:src="@drawable/icon_before" android:gravity="left"
+			android:background="@null" />
+		<ImageButton android:id="@+id/previousChapterButton"
+			android:layout_width="50dp" android:layout_height="match_parent"
+			android:src="@drawable/icon_previous_chapter" android:gravity="left"
+			android:layout_marginLeft="50dp" android:background="@null" />
+		<TextView android:id="@+id/footer" android:layout_width="wrap_content"
+			android:layout_height="match_parent" android:gravity="center"
+			android:layout_weight="1" android:textSize="16sp" />
+		<ImageButton android:id="@+id/nextChapterButton"
+			android:layout_width="50dp" android:layout_height="match_parent"
+			android:gravity="right" android:src="@drawable/icon_next_chapter"
+			android:layout_marginRight="50dp" android:background="@null" />
+		<ImageButton android:id="@+id/nextButton"
+			android:layout_width="50dp" android:layout_height="match_parent"
+			android:gravity="right" android:src="@drawable/icon_next"
+			android:background="@null" />
+	</LinearLayout>
+	
+</LinearLayout>
